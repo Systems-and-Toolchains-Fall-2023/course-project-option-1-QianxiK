@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nyeWPUMW)<br>
 Name: Qianxi Kong<br>
-Introduction:<br>
+Introduction:This project involves the use of the FIFA Dataset from Kaggle. It has detailed records of male soccer players from 2015 to 2022. The key goal is to dig deep into data analysis, handling things like managing databases and machine learning.<br>
 identify constraints:<br>
 1. **sofifa_id:**
    - Constraint: Primary Key, Not Null
