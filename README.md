@@ -2,7 +2,7 @@
 Name: Qianxi Kong<br>
 Video Link: <br>
 Cloud Link: <br>
-Steps to run my code: There are only two parts of my code: the data folder and jupyter notebook. My code can be easily ran by going over each cell of the jupyter notebook file.<br>
+Steps to run my code: There are only two parts of my code: the data folder and jupyter notebook. My code can be easily ran by going over each cell of the jupyter notebook file named"project".<br>
 
 Introduction:This project involves the use of the FIFA Dataset from Kaggle. It has detailed records of male soccer players from 2015 to 2022. The key goal is to dig deep into data analysis, handling things like managing databases and machine learning.<br>
 
