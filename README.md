@@ -1,6 +1,57 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nyeWPUMW)<br>
 Name: Qianxi Kong<br>
+Video Link: <br>
+Cloud Link: <br>
+Steps to run my code: There are only two parts of my code: the data folder and jupyter notebook. My code can be easily ran by going over each cell of the jupyter notebook file.<br>
+
 Introduction:This project involves the use of the FIFA Dataset from Kaggle. It has detailed records of male soccer players from 2015 to 2022. The key goal is to dig deep into data analysis, handling things like managing databases and machine learning.<br>
+
+PySpark: Random Forest Regressor and Linear Regression<br>
+Random Forest Regressor:<br>
+Applicability: <br>
+Random forests can capture non-linear relationships without extensive hyperparameter tuning.<br>
+Tunable Parameters:<br>
+Key parameters : numTrees, maxDepth, and featureSubsetStrategy. These parameters significantly impact model performance and overfitting. A higher number of trees can improve model accuracy but increases computational complexity.<br>
+Linear Regression:<br>
+Simplicity and Interpretability: <br>
+Linear regression is easy to interpret. It works best when there is a linear relationship between features and the target variable.<br>
+
+Tunable Parameters: <br>
+Regularization parameters (elasticNetParam, regParam) and the number of iterations can impact the accuracy. Regularization can prevent overfitting in models with many features.<br>
+PyTorch: MLP and CNN<br>
+MLP (Multi-Layer Perceptron):<br>
+Versatility: <br>
+MLPs are fundamental neural networks that can capture complex relationships through multiple layers and neurons. They are suitable for a wide range of regression and classification tasks.<br>
+Tunable Parameters: <br>
+Key parameters include the number of layers, neurons in each layer, learning rate, and activation functions. <br>
+
+CNN (Convolutional Neural Network):<br>
+Spatial Data Specialization: <br>
+CNNs are chosen for their ability to efficiently process spatial data, like images or data with spatial relationships, through convolutional layers. They can capture spatial hierarchies in data.<br>
+Tunable Parameters: <br>
+The number and size of convolutional filters, pooling layers, stride, and padding affect model performance, especially in feature extraction. The depth of the network (number of layers) can also influence learning capacity.<br>
+Impact of Tunable Parameters on Accuracy<br>
+Random Forest Regressor:<br>
+Increasing the number of trees improves model accuracy. 
+Deeper trees can model complex patterns but risk overfitting.<br>
+Linear Regression:<br>
+Regularization parameters control the model's complexity, preventing overfitting, especially in high-dimensional data.<br>
+MLP:<br>
+The number of hidden layers and neurons determines the model's capacity to learn complex patterns. However, too many neurons or layers can lead to overfitting.<br>
+The learning rate is crucial for convergence; too high a rate can overshoot minima, and too low a rate can slow down training.<br>
+CNN:<br>
+The number of filters and their size in convolutional layers directly impact the network's ability to extract features from spatial data.
+Pooling layers reduce dimensionality and can help with overfitting but might result in loss of information.
+Comparison of Selected Models<br>
+Random Forest vs. Linear Regression:<br>
+Random Forest is more powerful for capturing complex and non-linear relationships but is computationally more intensive and less interpretable than Linear Regression.
+Linear Regression is a good baseline and works well when the linear relationship between features and target.<br>
+MLP vs. CNN:<br>
+MLP is more general-purpose and suitable for various data types but may perform better than CNN on spatial or image data.
+CNNs are specialized for spatial data due to their convolutional layers, making them the preferred choice for image processing tasks.<br>
+Cross-framework Comparison:<br>
+PySpark models (Random Forest, Linear Regression) are well-suited for large-scale, distributed datasets and offer robustness and simplicity.
+PyTorch models (MLP, CNN) are more suited for complex pattern recognition tasks, especially where spatial relationships or deep learning techniques are essential. They require more computational resources but offer greater flexibility and learning capacity.<br>
 identify constraints:<br>
 1. **sofifa_id:**
    - Constraint: Primary Key, Not Null
