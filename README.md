@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nyeWPUMW)<br>
 Name: Qianxi Kong<br>
-Video Link: <br>
+Video Link: https://drive.google.com/file/d/1KicP7UnC-5fD7INzkZGqAp_LiaT4yxw7/view?usp=drive_link<br>
 Cloud Link: <br>
 Steps to run my code: There are only two parts of my code: the data folder and jupyter notebook. My code can be easily ran by going over each cell of the jupyter notebook file named"Project_Final"("Project"file is just for checkpoint).<br>
 
